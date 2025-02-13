@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/tuMetropolia/week5-inclass-assignment.git'
+                git branch: 'main', git 'https://github.com/tuMetropolia/week5-inclass-assignment.git'
             }
         }
 

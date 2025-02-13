@@ -2,6 +2,10 @@
 pipeline {
     agent any
 
+    tools {
+        maven 'Tu Maven'
+    }
+
     stages {
         stage('Checkout') {
             steps {
